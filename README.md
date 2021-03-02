@@ -9,10 +9,10 @@ Kurulum (Laravel 8.x için)
 * Öncelikle `composer.json` dosyanızdaki `require` kısmına aşağıdaki değeri ekleyin:
 
     ```json
-    "msbeden/seopack": "~1"
+    "msbeden/seopack": "dev-main"
     ```
 
-  Alternatif olarak `composer require msbeden/seopack:~5` komutu ile de paketi ekleyebilirsiniz.
+  Alternatif olarak `composer require msbeden/seopack` komutu ile de paketi ekleyebilirsiniz.
 * Ardından eğer `composer.json` dosyasını elinizle güncellediyseniz kodları projenize dahil etmek için Composer paketlerinizi güncellemelisiniz. `composer update` komutu ile bunu yapabilirsiniz.
 * Şimdi de `config/app.php` dosyasını açın, `providers` dizisi içine en alta şunu girin:
 
