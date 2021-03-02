@@ -1,0 +1,38 @@
+{
+  "name": "msbeden/seopack",
+  "description": "With Seopack, you can easily perform sitemap, meta tags, structured data operations.",
+  "keywords": [
+    "laravel",
+    "seo",
+    "sitemap",
+    "seopack"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mehmet Şaban BEDN",
+      "email": "msbeden@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "illuminate/support": "8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "msbeden\\Seopack\\": "src/msbeden/Seopack/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "msbeden\\Seopack\\SeopackServiceProvider"
+      ],
+      "aliases": {
+        "Seopack": "msbeden\\Seopack\\Facades\\Seopack"
+      }
+    }
+  },
+  "minimum-stability": "stable"
+}
